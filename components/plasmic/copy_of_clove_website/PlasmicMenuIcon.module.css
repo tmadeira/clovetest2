@@ -1,0 +1,23 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  cursor: pointer;
+  pointer-events: auto;
+}
+.svg__wwVFy {
+  object-fit: cover;
+  height: 36px;
+  width: 36px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.svg__cXz7B {
+  position: relative;
+  object-fit: cover;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+}

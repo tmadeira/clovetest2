@@ -1,0 +1,590 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+      "projectName": "Copy of Clove Website",
+      "version": "latest",
+      "cssFilePath": "plasmic/copy_of_clove_website/plasmic_copy_of_clove_website.module.css",
+      "components": [
+        {
+          "id": "YXmRSRV_99aVW",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+          "renderModuleFilePath": "plasmic/copy_of_clove_website/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_clove_website/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "QGA80RgFGLd73",
+          "name": "InfoCard",
+          "type": "managed",
+          "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+          "renderModuleFilePath": "plasmic/copy_of_clove_website/PlasmicInfoCard.tsx",
+          "importSpec": {
+            "modulePath": "InfoCard.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_clove_website/PlasmicInfoCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "kalnIZLqj6K81",
+          "name": "BusinessPage",
+          "type": "managed",
+          "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+          "renderModuleFilePath": "plasmic/copy_of_clove_website/PlasmicBusinessPage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/business.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_clove_website/PlasmicBusinessPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "y0PFOIKIN4jva",
+          "name": "Header",
+          "type": "managed",
+          "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+          "renderModuleFilePath": "plasmic/copy_of_clove_website/PlasmicHeader.tsx",
+          "importSpec": {
+            "modulePath": "Header.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_clove_website/PlasmicHeader.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "SV009CwcClwU7",
+          "name": "LinkButton",
+          "type": "managed",
+          "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+          "renderModuleFilePath": "plasmic/copy_of_clove_website/PlasmicLinkButton.tsx",
+          "importSpec": {
+            "modulePath": "LinkButton.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_clove_website/PlasmicLinkButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "hGvVhufbV8OeD",
+          "name": "StartedButton",
+          "type": "managed",
+          "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+          "renderModuleFilePath": "plasmic/copy_of_clove_website/PlasmicStartedButton.tsx",
+          "importSpec": {
+            "modulePath": "StartedButton.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_clove_website/PlasmicStartedButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "srr7ZVIUQAh-6",
+          "name": "SubmitButton",
+          "type": "managed",
+          "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+          "renderModuleFilePath": "plasmic/copy_of_clove_website/PlasmicSubmitButton.tsx",
+          "importSpec": {
+            "modulePath": "SubmitButton.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_clove_website/PlasmicSubmitButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "npQMG1y3PU8M1",
+          "name": "Footer",
+          "type": "managed",
+          "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+          "renderModuleFilePath": "plasmic/copy_of_clove_website/PlasmicFooter.tsx",
+          "importSpec": {
+            "modulePath": "Footer.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_clove_website/PlasmicFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "6qD4dHE1Z4oho",
+          "name": "EmailForm",
+          "type": "managed",
+          "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+          "renderModuleFilePath": "plasmic/copy_of_clove_website/PlasmicEmailForm.tsx",
+          "importSpec": {
+            "modulePath": "EmailForm.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_clove_website/PlasmicEmailForm.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "-HcGzCHHRJliz",
+          "name": "FormThankYou",
+          "type": "managed",
+          "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+          "renderModuleFilePath": "plasmic/copy_of_clove_website/PlasmicFormThankYou.tsx",
+          "importSpec": {
+            "modulePath": "FormThankYou.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_clove_website/PlasmicFormThankYou.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "UP0pQhrQy0dXu",
+          "name": "CheckmarkText",
+          "type": "managed",
+          "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+          "renderModuleFilePath": "plasmic/copy_of_clove_website/PlasmicCheckmarkText.tsx",
+          "importSpec": {
+            "modulePath": "CheckmarkText.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_clove_website/PlasmicCheckmarkText.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "iMtv5NCElk1PK",
+          "name": "Section",
+          "type": "managed",
+          "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+          "renderModuleFilePath": "plasmic/copy_of_clove_website/PlasmicSection.tsx",
+          "importSpec": {
+            "modulePath": "Section.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_clove_website/PlasmicSection.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "xnRJlhLH2Edsl",
+          "name": "HeaderLinks",
+          "type": "managed",
+          "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+          "renderModuleFilePath": "plasmic/copy_of_clove_website/PlasmicHeaderLinks.tsx",
+          "importSpec": {
+            "modulePath": "HeaderLinks.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_clove_website/PlasmicHeaderLinks.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "yu4cL-EFIGe4C",
+          "name": "MenuIcon",
+          "type": "managed",
+          "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+          "renderModuleFilePath": "plasmic/copy_of_clove_website/PlasmicMenuIcon.tsx",
+          "importSpec": {
+            "modulePath": "MenuIcon.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_clove_website/PlasmicMenuIcon.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Q7JAreKlD_imW",
+          "name": "Landing",
+          "type": "managed",
+          "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+          "renderModuleFilePath": "plasmic/copy_of_clove_website/PlasmicLanding.tsx",
+          "importSpec": {
+            "modulePath": "Landing.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_clove_website/PlasmicLanding.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ys1dDALBqW2Dr",
+          "name": "ContactForm",
+          "type": "managed",
+          "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+          "renderModuleFilePath": "plasmic/copy_of_clove_website/PlasmicContactForm.tsx",
+          "importSpec": {
+            "modulePath": "ContactForm.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_clove_website/PlasmicContactForm.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Ppuf_8_k0yWN4",
+          "name": "OurPartners",
+          "type": "managed",
+          "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+          "renderModuleFilePath": "plasmic/copy_of_clove_website/PlasmicOurPartners.tsx",
+          "importSpec": {
+            "modulePath": "../pages/partners.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_clove_website/PlasmicOurPartners.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "sCBjEr90b1mbPB",
+          "name": "Page",
+          "type": "managed",
+          "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+          "renderModuleFilePath": "plasmic/copy_of_clove_website/PlasmicPage.tsx",
+          "importSpec": {
+            "modulePath": "Page.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_clove_website/PlasmicPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "L0jfkkzI6NSWde",
+          "name": "PartnerCard",
+          "type": "managed",
+          "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+          "renderModuleFilePath": "plasmic/copy_of_clove_website/PlasmicPartnerCard.tsx",
+          "importSpec": {
+            "modulePath": "PartnerCard.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_clove_website/PlasmicPartnerCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "XmN92Nv4-pcVq-",
+          "name": "Contact",
+          "type": "managed",
+          "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+          "renderModuleFilePath": "plasmic/copy_of_clove_website/PlasmicContact.tsx",
+          "importSpec": {
+            "modulePath": "../pages/contact.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_clove_website/PlasmicContact.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "7tob782ltHq5pD",
+          "name": "TeamMemberCard",
+          "type": "managed",
+          "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+          "renderModuleFilePath": "plasmic/copy_of_clove_website/PlasmicTeamMemberCard.tsx",
+          "importSpec": {
+            "modulePath": "TeamMemberCard.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_clove_website/PlasmicTeamMemberCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "swBP63kONzdkSI",
+          "name": "TeamMembers",
+          "type": "managed",
+          "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+          "renderModuleFilePath": "plasmic/copy_of_clove_website/PlasmicTeamMembers.tsx",
+          "importSpec": {
+            "modulePath": "TeamMembers.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_clove_website/PlasmicTeamMembers.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "DzjLF3G6lYSWQc",
+          "name": "ContactCard",
+          "type": "managed",
+          "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+          "renderModuleFilePath": "plasmic/copy_of_clove_website/PlasmicContactCard.tsx",
+          "importSpec": {
+            "modulePath": "ContactCard.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_clove_website/PlasmicContactCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "acUXApEsmhTkwY",
+          "name": "ProcessCard",
+          "type": "managed",
+          "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+          "renderModuleFilePath": "plasmic/copy_of_clove_website/PlasmicProcessCard.tsx",
+          "importSpec": {
+            "modulePath": "ProcessCard.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_clove_website/PlasmicProcessCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "tmt8YJ3U6WhwTS",
+          "name": "ImpactSection",
+          "type": "managed",
+          "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+          "renderModuleFilePath": "plasmic/copy_of_clove_website/PlasmicImpactSection.tsx",
+          "importSpec": {
+            "modulePath": "ImpactSection.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_clove_website/PlasmicImpactSection.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "CkvbJP0C9UinrQ",
+          "name": "Actions",
+          "type": "managed",
+          "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+          "renderModuleFilePath": "plasmic/copy_of_clove_website/PlasmicActions.tsx",
+          "importSpec": {
+            "modulePath": "Actions.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_clove_website/PlasmicActions.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "HuPbUB6jaqsHQR",
+          "name": "DemoImage",
+          "type": "managed",
+          "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+          "renderModuleFilePath": "plasmic/copy_of_clove_website/PlasmicDemoImage.tsx",
+          "importSpec": {
+            "modulePath": "DemoImage.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_clove_website/PlasmicDemoImage.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "K2q83RG_SHjqGY",
+          "name": "Checkmarksvg2Icon",
+          "moduleFilePath": "plasmic/copy_of_clove_website/icons/PlasmicIcon__Checkmarksvg2.tsx"
+        },
+        {
+          "id": "SjIeMEwt2LxX7p",
+          "name": "DownArrowsvgIcon",
+          "moduleFilePath": "plasmic/copy_of_clove_website/icons/PlasmicIcon__DownArrowsvg.tsx"
+        },
+        {
+          "id": "iN76y7fFcsgbra",
+          "name": "MenuBlack24DpsvgIcon",
+          "moduleFilePath": "plasmic/copy_of_clove_website/icons/PlasmicIcon__MenuBlack24Dpsvg.tsx"
+        },
+        {
+          "id": "oqstc9Cslcu5a8",
+          "name": "XIcon",
+          "moduleFilePath": "plasmic/copy_of_clove_website/icons/PlasmicIcon__X.tsx"
+        },
+        {
+          "id": "PWYjwIiH9_8Pdl",
+          "name": "LinkedinLogosvgIcon",
+          "moduleFilePath": "plasmic/copy_of_clove_website/icons/PlasmicIcon__LinkedinLogosvg.tsx"
+        },
+        {
+          "id": "BJjXYf54QGzaHz",
+          "name": "Icons8OksvgIcon",
+          "moduleFilePath": "plasmic/copy_of_clove_website/icons/PlasmicIcon__Icons8Oksvg.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "OW3Ys2Ek5goX6p",
+          "name": "clove_leaf.svg",
+          "filePath": "../public/plasmic/copy_of_clove_website/images/cloveLeafsvg.svg"
+        },
+        {
+          "id": "4wXczxSCREBt2V",
+          "name": "clove_brown_background.svg",
+          "filePath": "../public/plasmic/copy_of_clove_website/images/cloveBrownBackgroundsvg.svg"
+        },
+        {
+          "id": "3q7GFX805OpVJJ",
+          "name": "clove_button.svg",
+          "filePath": "../public/plasmic/copy_of_clove_website/images/cloveButtonsvg.svg"
+        },
+        {
+          "id": "yR0kMsoOAnZWxy",
+          "name": "code_snippets.png",
+          "filePath": "../public/plasmic/copy_of_clove_website/images/codeSnippetspng.png"
+        },
+        {
+          "id": "JW20k-8i4aa9hr",
+          "name": "survey-icon.png",
+          "filePath": "../public/plasmic/copy_of_clove_website/images/surveyIconpng.png"
+        },
+        {
+          "id": "ROyddGA5kmrGtN",
+          "name": "email_capture.png",
+          "filePath": "../public/plasmic/copy_of_clove_website/images/emailCapturepng.png"
+        },
+        {
+          "id": "XSxmkU9PSzCdI4",
+          "name": "clov_brand_playbook.png",
+          "filePath": "../public/plasmic/copy_of_clove_website/images/clovBrandPlaybookpng.png"
+        },
+        {
+          "id": "SUM-AoDvV8h30Y",
+          "name": "checkmark.svg",
+          "filePath": "../public/plasmic/copy_of_clove_website/images/checkmarksvg.svg"
+        },
+        {
+          "id": "lFBfUXfNg31wcR",
+          "name": "vincent-van-zalinge-AhNkBAMq0Kk-unsplash.jpg",
+          "filePath": "../public/plasmic/copy_of_clove_website/images/vincentVanZalingeAhNkBaMq0KkUnsplashjpg.jpeg"
+        },
+        {
+          "id": "rq2kZck1H01ms8",
+          "name": "clove-crop.png",
+          "filePath": "../public/plasmic/copy_of_clove_website/images/cloveCroppng.png"
+        },
+        {
+          "id": "i-CBx3VQHXc4Hf",
+          "name": "profile.jpeg",
+          "filePath": "../public/plasmic/copy_of_clove_website/images/profilejpeg.jpeg"
+        },
+        {
+          "id": "qfZi9Uwj_GIqZw",
+          "name": "person.png",
+          "filePath": "../public/plasmic/copy_of_clove_website/images/personpng.png"
+        },
+        {
+          "id": "Dwi1yU-kBg9-14",
+          "name": "surya",
+          "filePath": "../public/plasmic/copy_of_clove_website/images/surya.jpeg"
+        },
+        {
+          "id": "pV8a9Hi29uQT2r",
+          "name": "surya2.png",
+          "filePath": "../public/plasmic/copy_of_clove_website/images/surya2Png.jpeg"
+        },
+        {
+          "id": "zLVKMSvc7nTNKV",
+          "name": "tailai.png",
+          "filePath": "../public/plasmic/copy_of_clove_website/images/tailaipng.jpeg"
+        },
+        {
+          "id": "QNPE-y1FmrVUH6",
+          "name": "miraal.png",
+          "filePath": "../public/plasmic/copy_of_clove_website/images/miraalpng.png"
+        },
+        {
+          "id": "KKSOvOOpbS1Pmt",
+          "name": "brayden_profile.jpg 2",
+          "filePath": "../public/plasmic/copy_of_clove_website/images/braydenProfilejpg2.jpeg"
+        },
+        {
+          "id": "ZUjPqiK2ArN5pK",
+          "name": "Screen Shot 2021-06-27 at 12.20.07 PM.png",
+          "filePath": "../public/plasmic/copy_of_clove_website/images/screenShot20210627At122007PMpng.png"
+        },
+        {
+          "id": "a14O8Smb9xHol7",
+          "name": "Screen Shot 2021-06-27 at 12.22.33 PM.png",
+          "filePath": "../public/plasmic/copy_of_clove_website/images/screenShot20210627At122233PMpng.png"
+        },
+        {
+          "id": "i1I2oOdJ9xU5L6",
+          "name": "Screen Shot 2021-06-27 at 12.55.26 PM.png",
+          "filePath": "../public/plasmic/copy_of_clove_website/images/screenShot20210627At125526PMpng.png"
+        },
+        {
+          "id": "pd0xeaeVvUu7mw",
+          "name": "clovescreendemo.gif",
+          "filePath": "../public/plasmic/copy_of_clove_website/images/clovescreendemogif.jpeg"
+        },
+        {
+          "id": "Pqb219Hg3I5JAm",
+          "name": "clovehomepagedemo.png",
+          "filePath": "../public/plasmic/copy_of_clove_website/images/clovehomepagedemopng.png"
+        },
+        {
+          "id": "ELM49YftOv_DDu",
+          "name": "Screen Shot 2021-06-27 at 12.22.33 PM.png 2",
+          "filePath": "../public/plasmic/copy_of_clove_website/images/screenShot20210627At122233PMpng2.png"
+        },
+        {
+          "id": "T6CGXD8OJi9IR2",
+          "name": "clove_leaf.png",
+          "filePath": "../public/plasmic/copy_of_clove_website/images/cloveLeafpng.png"
+        },
+        {
+          "id": "KnKhZQz6hVduz8",
+          "name": "rahma.png",
+          "filePath": "../public/plasmic/copy_of_clove_website/images/rahmapng.png"
+        },
+        {
+          "id": "uuOetO6HGu3XYb",
+          "name": "rahma.png 2",
+          "filePath": "../public/plasmic/copy_of_clove_website/images/rahmapng2.png"
+        },
+        {
+          "id": "MMX2OYNaKEncgI",
+          "name": "Screen Shot 2021-07-01 at 10.25.06 AM.png",
+          "filePath": "../public/plasmic/copy_of_clove_website/images/screenShot20210701At102506AMpng.png"
+        },
+        {
+          "id": "rnjWz6ik-x2b5k",
+          "name": "clovehomepageimage.png",
+          "filePath": "../public/plasmic/copy_of_clove_website/images/clovehomepageimagepng.png"
+        },
+        {
+          "id": "NAJh5q8zo67WnV",
+          "name": "clovehomepageimage_1.png",
+          "filePath": "../public/plasmic/copy_of_clove_website/images/clovehomepageimage1Png.png"
+        },
+        {
+          "id": "qvedTH4T9GFR8q",
+          "name": "clove_demo_1.png",
+          "filePath": "../public/plasmic/copy_of_clove_website/images/cloveDemo1Png.png"
+        },
+        {
+          "id": "tBtUlPcqkEtAbT",
+          "name": "shop1301_logo.png",
+          "filePath": "../public/plasmic/copy_of_clove_website/images/shop1301Logopng.png"
+        }
+      ],
+      "codeComponents": [],
+      "projectApiToken": "b7SUfgyMG5c0tkXAcRnDSsIWFIxCtE09UcHAt4fl5vT9H8NKnwZYsRamQftRxG639dw2yxujahRpGfLZRg"
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "-L1czsd8IbhiAH",
+        "name": "Screen",
+        "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+        "contextFilePath": "plasmic/copy_of_clove_website/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.157",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.157/dist/plasmic.schema.json"
+}

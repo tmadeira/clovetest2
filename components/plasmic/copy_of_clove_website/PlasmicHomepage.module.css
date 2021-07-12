@@ -1,0 +1,314 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.page:global(.__wab_instance) {
+  height: 100%;
+  min-height: 0;
+}
+.sections {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  height: 100%;
+  min-height: 0;
+}
+.box__wb3Q {
+  height: auto;
+  width: 100%;
+  min-width: 0;
+  background: linear-gradient(#e9eeed85, #e9eeed85) 0% 0% repeat,
+    url("/plasmic/copy_of_clove_website/images/cloveLeafsvg.svg") top 0% left 50% no-repeat, #ffffff 0% 0% repeat;
+}
+.section__pfXIc:global(.__wab_instance) {
+  height: auto;
+  min-height: 0px;
+}
+.landing:global(.__wab_instance) {
+  position: relative;
+  height: 100%;
+  min-height: 0;
+}
+.box__aPnw7 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.link {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+  align-content: unset;
+}
+.p {
+  color: #000000;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  height: auto;
+  text-decoration-line: none;
+  font-weight: 500;
+  width: auto;
+  align-self: center;
+  display: inline-block;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  width: 50px;
+  align-self: center;
+  height: 50px;
+  color: #eaa827;
+  flex-shrink: 0;
+}
+.slotChildren {
+  line-height: 1.2;
+  color: #845c79 /* plasmic-token: HEzQ2XfuegOxui */;
+}
+.box__hnE {
+  display: flex;
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  background: #f9f9f9 repeat;
+}
+.section__vv4Iq:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.demoImage:global(.__wab_instance) {
+  position: relative;
+  align-self: center;
+  margin: -6em 0px 0px;
+}
+.box___4PWqJ {
+  position: relative;
+  height: auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  text-align: center;
+  align-self: center;
+  margin-top: 37px;
+  margin-left: 0.5em /* plasmic-token: WcBAfY6pgIRFXm */;
+  margin-right: 0.5em /* plasmic-token: WcBAfY6pgIRFXm */;
+  letter-spacing: 0.5px;
+  max-width: 600px /* plasmic-token: kh_QbJwRdtO9At */;
+}
+.box__fDxtr {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  overflow: visible;
+  width: auto;
+  height: auto;
+  background: #ffffff repeat;
+}
+.section__qkZi0:global(.__wab_instance) {
+  position: relative;
+  height: auto;
+  width: 100%;
+  min-width: 0;
+}
+.box__fjL1 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  height: auto;
+  width: 100%;
+  min-width: 0;
+}
+.box__da7K7 {
+  position: relative;
+  height: auto;
+  font-size: 48px;
+  text-align: center;
+  margin: 60px 0.5em /* plasmic-token: WcBAfY6pgIRFXm */;
+}
+.columns {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  align-self: center;
+  min-width: 0;
+}
+.columns > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-evenly;
+  margin-left: calc(0px - 0px);
+  width: calc(100% + 0px);
+  margin-top: calc(0px - 60px);
+  height: calc(100% + 60px);
+}
+.columns > :global(.__wab_flex-container) > *,
+.columns > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 0px;
+  margin-top: 60px;
+}
+@media (min-width: 800px) {
+  .columns {
+    flex-direction: row;
+  }
+}
+@media (min-width: 800px) {
+  .columns > :global(.__wab_flex-container) {
+    flex-direction: row;
+    margin-left: calc(0px - 30px);
+    width: calc(100% + 30px);
+    margin-top: calc(0px - 0px);
+    height: calc(100% + 0px);
+  }
+}
+@media (min-width: 800px) {
+  .columns > :global(.__wab_flex-container) > *,
+  .columns > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+    margin-left: 30px;
+    margin-top: 0px;
+  }
+}
+.column__r3IcH {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: auto;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media (min-width: 800px) {
+  .column__r3IcH {
+    width: 0;
+    flex-shrink: 0;
+  }
+}
+.processCard__nrR1Q:global(.__wab_instance) {
+  position: relative;
+}
+.box__sQMcm {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-weight: 500;
+}
+.img__nWq4P {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.column__urEok {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: auto;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media (min-width: 800px) {
+  .column__urEok {
+    width: 0;
+    flex-shrink: 0;
+  }
+}
+.processCard__jerz5:global(.__wab_instance) {
+  position: relative;
+}
+.box__uCEmy {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: auto;
+}
+.img__ncQ6V {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  min-width: 0;
+}
+.column__lbnZb {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: auto;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media (min-width: 800px) {
+  .column__lbnZb {
+    width: 0;
+    flex-shrink: 0;
+  }
+}
+.processCard__iJuDr:global(.__wab_instance) {
+  position: relative;
+}
+.box__mudoY {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.img___8D1Qf {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  min-width: 0;
+}
+.box__rKfj1 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background: url("/plasmic/copy_of_clove_website/images/cloveBrownBackgroundsvg.svg") top 0% left 0% / contain repeat;
+}
+@media (min-width: 641px) {
+  .box__rKfj1 {
+    background: linear-gradient(#7d7176, #7d7176) 0% 0% / 100% 100% repeat,
+      url("/plasmic/copy_of_clove_website/images/cloveBrownBackgroundsvg.svg") top 0% left 0% / contain repeat;
+  }
+}
+.section__qMt1Y:global(.__wab_instance) {
+  position: relative;
+  width: auto;
+}
+.impactSection:global(.__wab_instance) {
+  position: relative;
+}
+.box__qLqfd {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.actions:global(.__wab_instance) {
+  height: 100%;
+  min-height: 0;
+}

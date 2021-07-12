@@ -1,0 +1,51 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  overflow: visible;
+  position: relative;
+  padding-top: 3em;
+  padding-bottom: 5em;
+  min-width: 0;
+  min-height: 0;
+}
+.root__thinTopDownPadding {
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+.content {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  height: 100%;
+  width: 100%;
+  max-width: 1000px /* plasmic-token: TpxbeEDz8Y7VAP */;
+  left: auto;
+  top: auto;
+  overflow: visible;
+  padding-left: 2em;
+  padding-right: 2em;
+  min-width: 0;
+  min-height: 0;
+}
+.content__thinPadding {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.content__width_veryWide {
+  max-width: 20000px;
+}
+@media (min-width: 641px) {
+  .content__width_veryWide {
+    max-width: 1350px;
+  }
+}
+.content__width_wide {
+  max-width: 1200px;
+}

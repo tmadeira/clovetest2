@@ -1,0 +1,113 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-top: calc(0px - 30px);
+  height: calc(100% + 30px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 30px;
+}
+.box {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  min-width: 0;
+}
+.box > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(0px - 5px);
+  height: calc(100% + 5px);
+}
+.box > :global(.__wab_flex-container) > *,
+.box > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 5px;
+}
+.name {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 15px;
+  color: #535353;
+  min-width: 0;
+  border-radius: 10px;
+}
+.nameError {
+  position: relative;
+  text-align: left;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  min-width: 0;
+}
+.email {
+  position: relative;
+  width: 100%;
+  align-self: center;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 15px;
+  min-width: 0;
+  border-radius: 10px;
+}
+.emailError {
+  position: relative;
+  text-align: left;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  min-width: 0;
+}
+.phone {
+  position: relative;
+  width: 100%;
+  align-self: center;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 15px;
+  min-width: 0;
+  border-radius: 10px;
+}
+.phoneError {
+  position: relative;
+  text-align: left;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  min-width: 0;
+}
+.message {
+  position: relative;
+  align-self: center;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 15px;
+  min-height: 150px;
+  min-width: 0;
+  border-radius: 10px;
+}
+.messageError {
+  position: relative;
+  text-align: left;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  min-width: 0;
+}
+.submitButton:global(.__wab_instance) {
+  position: relative;
+  align-self: center;
+  flex-shrink: 0;
+}
+.formThankYou:global(.__wab_instance) {
+  position: relative;
+}

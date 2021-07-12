@@ -1,0 +1,99 @@
+{
+  "props": [
+    {
+      "name": "BackgroundLightGreen",
+      "type": "color",
+      "value": "#E8EEED",
+      "category": "color",
+      "meta": {
+        "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+        "id": "hdrogiwFXdCpAX"
+      }
+    },
+    {
+      "name": "Card Max Width",
+      "type": "spacing",
+      "value": "380px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+        "id": "QoQQVmqGbFvqkW"
+      }
+    },
+    {
+      "name": "IconMargin",
+      "type": "spacing",
+      "value": "-2em",
+      "category": "spacing",
+      "meta": {
+        "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+        "id": "Lld7pCrdyOHldv"
+      }
+    },
+    {
+      "name": "Line Height",
+      "type": "lineheight",
+      "value": "1.2",
+      "category": "lineheight",
+      "meta": {
+        "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+        "id": "KMqPROOuYynEtG"
+      }
+    },
+    {
+      "name": "Purple Text",
+      "type": "color",
+      "value": "#845C79",
+      "category": "color",
+      "meta": {
+        "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+        "id": "HEzQ2XfuegOxui"
+      }
+    },
+    {
+      "name": "Text Margin",
+      "type": "spacing",
+      "value": "0.5em",
+      "category": "spacing",
+      "meta": {
+        "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+        "id": "WcBAfY6pgIRFXm"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken",
+      "type": "color",
+      "value": "#ffffff",
+      "category": "color",
+      "meta": {
+        "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+        "id": "raNLaxg59CYSqp"
+      }
+    },
+    {
+      "name": "max-width",
+      "type": "spacing",
+      "value": "1000px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+        "id": "TpxbeEDz8Y7VAP"
+      }
+    },
+    {
+      "name": "text-narrow",
+      "type": "spacing",
+      "value": "600px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "eV7Xi9hgseajGR8GcVFgnT",
+        "id": "kh_QbJwRdtO9At"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}

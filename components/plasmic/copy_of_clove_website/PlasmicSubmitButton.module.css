@@ -1,0 +1,16 @@
+.root {
+  font-family: "Montserrat", sans-serif;
+  width: 150px;
+  font-size: 12px;
+  height: 30px;
+  color: #ffffff;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 15px;
+  background: url("/plasmic/copy_of_clove_website/images/screenShot20210627At122233PMpng2.png") left 0% bottom 0% / cover repeat,
+    linear-gradient(#eaa827, #eaa827) 0% 0% / 100% 100% repeat,
+    url("/plasmic/copy_of_clove_website/images/cloveButtonsvg.svg") 0% 0% / cover no-repeat;
+  border-width: 0px;
+}

@@ -1,0 +1,83 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(0px - 0px);
+  height: calc(100% + 0px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 0px;
+}
+.box {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(10px + 0px) !important;
+  width: 100%;
+  min-width: 0;
+}
+.box__submitted {
+  margin-top: calc(10px + 0px) !important;
+}
+.firstName {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 15px;
+  height: 43px;
+  font-size: 12px;
+  min-width: 0;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border-width: 0px;
+}
+.firstNameError {
+  position: relative;
+  text-align: left;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  min-width: 0;
+}
+.email {
+  position: relative;
+  width: 100%;
+  left: auto;
+  top: auto;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 15px;
+  height: 43px;
+  font-size: 12px;
+  margin-top: 10px;
+  min-width: 0;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border-width: 0px;
+}
+.emailError {
+  position: relative;
+  text-align: left;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  min-width: 0;
+}
+.submitButton:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  margin-top: 10px;
+  flex-shrink: 0;
+}
+.formThankYou:global(.__wab_instance) {
+  position: relative;
+}

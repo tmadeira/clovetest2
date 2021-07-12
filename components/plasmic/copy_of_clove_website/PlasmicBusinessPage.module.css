@@ -1,0 +1,315 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  background: #ffffff;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  margin-top: calc(0px - 0px);
+  height: calc(100% + 0px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 0px;
+}
+.page:global(.__wab_instance) {
+  position: relative;
+}
+.box___87Iwa {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.landing:global(.__wab_instance) {
+  position: relative;
+}
+.box__beFp {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.box__beFp > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.box__beFp > :global(.__wab_flex-container) > *,
+.box__beFp > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 10px;
+}
+.box__oXbqq {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.startedButton:global(.__wab_instance) {
+  position: relative;
+  align-self: center;
+}
+.box__biNvy {
+  margin-left: 0px;
+  width: 100%;
+  height: 100%;
+  margin-top: 0px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  font-size: 20px;
+  min-width: 0;
+  min-height: 0;
+}
+.box___0Ralf {
+  position: relative;
+  left: auto;
+  top: auto;
+  width: auto;
+  height: auto;
+  text-align: center;
+  display: inline-block;
+  background: transparent repeat;
+}
+.box__o1BCs {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background: #f9f9f9 repeat;
+}
+.section__fmPW:global(.__wab_instance) {
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.box__vvDhc {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.box__vvDhc > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-top: calc(0px - 25px);
+  height: calc(100% + 25px);
+}
+.box__vvDhc > :global(.__wab_flex-container) > *,
+.box__vvDhc > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 25px;
+}
+.columns {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  align-self: stretch;
+  padding-top: 40px;
+  min-width: 0;
+}
+.columns > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 30px);
+  height: calc(100% + 30px);
+}
+.columns > :global(.__wab_flex-container) > *,
+.columns > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 30px;
+}
+@media (min-width: 641px) {
+  .columns {
+    flex-direction: row;
+  }
+}
+@media (min-width: 641px) {
+  .columns > :global(.__wab_flex-container) {
+    flex-direction: row;
+    margin-left: calc(0px - 0px);
+    width: calc(100% + 0px);
+    margin-top: calc(0px - 0px);
+    height: calc(100% + 0px);
+  }
+}
+@media (min-width: 641px) {
+  .columns > :global(.__wab_flex-container) > *,
+  .columns > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+}
+.column___6Mxdo {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+@media (min-width: 641px) {
+  .column___6Mxdo {
+    width: 0;
+    flex-shrink: 0;
+  }
+}
+.box__mhYpi {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  flex-shrink: 2;
+  min-width: 0;
+  min-height: 0;
+}
+.box__f32U {
+  position: relative;
+  align-self: center;
+  font-size: 40px;
+  text-align: center;
+  width: 100%;
+  min-width: 0;
+}
+.checkmarkText__o2LN7:global(.__wab_instance) {
+  position: relative;
+}
+.box__qIjLd {
+  font-size: 20px;
+}
+.checkmarkText__xKTn:global(.__wab_instance) {
+  position: relative;
+}
+.box__mblVy {
+  height: auto;
+  font-size: 20px;
+}
+.checkmarkText__s56Aa:global(.__wab_instance) {
+  position: relative;
+}
+.box__jGlBx {
+  font-size: 20px;
+}
+.checkmarkText__iIwc1:global(.__wab_instance) {
+  position: relative;
+  height: 76px;
+  flex-shrink: 0;
+}
+.box__r4Vqa {
+  width: 418px;
+  height: auto;
+  font-size: 20px;
+}
+.checkmarkText__ajIRs:global(.__wab_instance) {
+  position: relative;
+}
+.box__lxJrM {
+  font-size: 20px;
+}
+.column__uG4Ad {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+@media (min-width: 641px) {
+  .column__uG4Ad {
+    width: 0;
+    flex-shrink: 0;
+  }
+}
+.box___8VgL0 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.img {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.box__qIKoL {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background: url("/plasmic/copy_of_clove_website/images/cloveBrownBackgroundsvg.svg") 0% 0% / cover repeat border-box;
+}
+@media (min-width: 641px) {
+  .box__qIKoL {
+    background: #7d7176 0% 0% / 100% 100% repeat border-box;
+  }
+}
+.section__sNCa:global(.__wab_instance) {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+.impactSection:global(.__wab_instance) {
+  position: relative;
+}
+.box__gYTj {
+  height: auto;
+}
+.section__k76Ij:global(.__wab_instance) {
+  position: relative;
+}
+.box__wWyUi {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.box__wWyUi > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-top: calc(0px - 25px);
+  height: calc(100% + 25px);
+}
+.box__wWyUi > :global(.__wab_flex-container) > *,
+.box__wWyUi > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 25px;
+}
+.box___2TRp6 {
+  position: relative;
+  align-self: center;
+  font-size: 48px;
+  text-align: center;
+  padding: 10px;
+}
+.contactCard:global(.__wab_instance) {
+  position: relative;
+  align-self: center;
+  width: 100%;
+  min-width: 0;
+}
+.box__aEi5J {
+  width: auto;
+  font-size: 20px;
+  font-weight: 400;
+  display: inline-block;
+}

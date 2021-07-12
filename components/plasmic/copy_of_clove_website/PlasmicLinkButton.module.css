@@ -1,0 +1,12 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.link__hnhda {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+}
