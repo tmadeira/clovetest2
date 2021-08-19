@@ -16,6 +16,7 @@ import Head from "next/head";
 import Link, { LinkProps } from "next/link";
 
 import * as p from "@plasmicapp/react-web";
+
 import {
   hasVariant,
   classNames,
@@ -118,8 +119,8 @@ function PlasmicImpactSection__RenderFunc(props: {
         />
       ) : null}
 
-      <div className={classNames(defaultcss.all, sty.box__i5J5H)}>
-        <div className={classNames(defaultcss.all, sty.box__b80By)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__i5J5H)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__b80By)}>
           {p.renderPlasmicSlot({
             defaultContents: "How are we fighting climate change?",
             value: args.children,
@@ -133,7 +134,7 @@ function PlasmicImpactSection__RenderFunc(props: {
           })}
         </div>
 
-        <div className={classNames(defaultcss.all, sty.box___50Wys)}>
+        <div className={classNames(defaultcss.all, sty.freeBox___50Wys)}>
           {p.renderPlasmicSlot({
             defaultContents:
               "By measuring the environmental impact of products, we help you shop sustainably. As you change your purchasing habits, businesses will need to make their products more sustainable to remain competitive, reducing our collective greenhouse gas emissions.",

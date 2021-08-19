@@ -16,6 +16,7 @@ import Head from "next/head";
 import Link, { LinkProps } from "next/link";
 
 import * as p from "@plasmicapp/react-web";
+
 import {
   hasVariant,
   classNames,
@@ -54,7 +55,7 @@ export const PlasmicContactCard__ArgProps = new Array<ArgPropType>("children");
 
 export type PlasmicContactCard__OverridesType = {
   root?: p.Flex<"div">;
-  box?: p.Flex<"div">;
+  freeBox?: p.Flex<"div">;
   contactForm?: p.Flex<typeof ContactForm>;
 };
 
@@ -83,9 +84,9 @@ function PlasmicContactCard__RenderFunc(props: {
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
       <div
-        data-plasmic-name={"box"}
-        data-plasmic-override={overrides.box}
-        className={classNames(defaultcss.all, sty.box)}
+        data-plasmic-name={"freeBox"}
+        data-plasmic-override={overrides.freeBox}
+        className={classNames(defaultcss.all, sty.freeBox)}
       >
         {p.renderPlasmicSlot({
           defaultContents:
@@ -105,8 +106,8 @@ function PlasmicContactCard__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "box", "contactForm"],
-  box: ["box"],
+  root: ["root", "freeBox", "contactForm"],
+  freeBox: ["freeBox"],
   contactForm: ["contactForm"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
@@ -114,7 +115,7 @@ type DescendantsType<T extends NodeNameType> =
   typeof PlasmicDescendants[T][number];
 type NodeDefaultElementType = {
   root: "div";
-  box: "div";
+  freeBox: "div";
   contactForm: typeof ContactForm;
 };
 
@@ -179,7 +180,7 @@ export const PlasmicContactCard = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    box: makeNodeComponent("box"),
+    freeBox: makeNodeComponent("freeBox"),
     contactForm: makeNodeComponent("contactForm"),
 
     // Metadata about props expected for PlasmicContactCard

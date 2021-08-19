@@ -16,6 +16,7 @@ import Head from "next/head";
 import Link, { LinkProps } from "next/link";
 
 import * as p from "@plasmicapp/react-web";
+
 import {
   hasVariant,
   classNames,
@@ -59,7 +60,7 @@ export const PlasmicContactForm__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicContactForm__OverridesType = {
   root?: p.Flex<"div">;
-  box?: p.Flex<"div">;
+  freeBox?: p.Flex<"div">;
   name?: p.Flex<"input">;
   nameError?: p.Flex<"div">;
   email?: p.Flex<"input">;
@@ -99,11 +100,15 @@ function PlasmicContactForm__RenderFunc(props: {
       {(hasVariant(variants, "submitted", "submitted") ? false : true) ? (
         <p.Stack
           as={"div"}
-          data-plasmic-name={"box"}
-          data-plasmic-override={overrides.box}
+          data-plasmic-name={"freeBox"}
+          data-plasmic-override={overrides.freeBox}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.box, {
-            [sty.box__submitted]: hasVariant(variants, "submitted", "submitted")
+          className={classNames(defaultcss.all, sty.freeBox, {
+            [sty.freeBox__submitted]: hasVariant(
+              variants,
+              "submitted",
+              "submitted"
+            )
           })}
         >
           <input
@@ -215,7 +220,7 @@ function PlasmicContactForm__RenderFunc(props: {
 const PlasmicDescendants = {
   root: [
     "root",
-    "box",
+    "freeBox",
     "name",
     "nameError",
     "email",
@@ -227,8 +232,8 @@ const PlasmicDescendants = {
     "submitButton",
     "formThankYou"
   ],
-  box: [
-    "box",
+  freeBox: [
+    "freeBox",
     "name",
     "nameError",
     "email",
@@ -255,7 +260,7 @@ type DescendantsType<T extends NodeNameType> =
   typeof PlasmicDescendants[T][number];
 type NodeDefaultElementType = {
   root: "div";
-  box: "div";
+  freeBox: "div";
   name: "input";
   nameError: "div";
   email: "input";
@@ -329,7 +334,7 @@ export const PlasmicContactForm = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    box: makeNodeComponent("box"),
+    freeBox: makeNodeComponent("freeBox"),
     _name: makeNodeComponent("name"),
     nameError: makeNodeComponent("nameError"),
     email: makeNodeComponent("email"),

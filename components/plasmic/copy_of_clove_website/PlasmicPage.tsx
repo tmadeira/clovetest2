@@ -16,6 +16,7 @@ import Head from "next/head";
 import Link, { LinkProps } from "next/link";
 
 import * as p from "@plasmicapp/react-web";
+
 import {
   hasVariant,
   classNames,
@@ -124,7 +125,7 @@ function PlasmicPage__RenderFunc(props: {
       {p.renderPlasmicSlot({
         defaultContents: (
           <React.Fragment>
-            <div className={classNames(defaultcss.all, sty.box___92XX)}>
+            <div className={classNames(defaultcss.all, sty.freeBox___92XX)}>
               <Section
                 className={classNames("__wab_instance", sty.section___2Ch5B)}
                 content={
@@ -135,7 +136,7 @@ function PlasmicPage__RenderFunc(props: {
               />
             </div>
 
-            <div className={classNames(defaultcss.all, sty.box__yOMi)}>
+            <div className={classNames(defaultcss.all, sty.freeBox__yOMi)}>
               <Section
                 className={classNames("__wab_instance", sty.section__vywgD)}
                 content={
@@ -150,7 +151,7 @@ function PlasmicPage__RenderFunc(props: {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__kdsyp
+                        sty.freeBox__kdsyp
                       )}
                     >
                       {

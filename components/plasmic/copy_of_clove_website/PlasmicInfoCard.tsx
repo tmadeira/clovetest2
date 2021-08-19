@@ -16,6 +16,7 @@ import Head from "next/head";
 import Link, { LinkProps } from "next/link";
 
 import * as p from "@plasmicapp/react-web";
+
 import {
   hasVariant,
   classNames,
@@ -97,23 +98,23 @@ function PlasmicInfoCard__RenderFunc(props: {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box___3BgDa, {
-          [sty.box__colors_green___3BgDaRNtSu]: hasVariant(
+        className={classNames(defaultcss.all, sty.freeBox___3BgDa, {
+          [sty.freeBox__colors_green___3BgDaRNtSu]: hasVariant(
             variants,
             "colors",
             "green"
           ),
-          [sty.box__colors_offWhite___3BgDa8TPcq]: hasVariant(
+          [sty.freeBox__colors_offWhite___3BgDa8TPcq]: hasVariant(
             variants,
             "colors",
             "offWhite"
           ),
-          [sty.box__colors_purple___3BgDam4Bk3]: hasVariant(
+          [sty.freeBox__colors_purple___3BgDam4Bk3]: hasVariant(
             variants,
             "colors",
             "purple"
           ),
-          [sty.box__mobile___3BgDaqRfMv]: hasVariant(
+          [sty.freeBox__mobile___3BgDaqRfMv]: hasVariant(
             variants,
             "mobile",
             "mobile"
@@ -121,8 +122,8 @@ function PlasmicInfoCard__RenderFunc(props: {
         })}
       >
         <div
-          className={classNames(defaultcss.all, sty.box__sw2T8, {
-            [sty.box__mobile__sw2T8QRfMv]: hasVariant(
+          className={classNames(defaultcss.all, sty.freeBox__sw2T8, {
+            [sty.freeBox__mobile__sw2T8QRfMv]: hasVariant(
               variants,
               "mobile",
               "mobile"

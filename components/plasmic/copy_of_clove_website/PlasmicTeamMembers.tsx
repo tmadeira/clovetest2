@@ -16,6 +16,7 @@ import Head from "next/head";
 import Link, { LinkProps } from "next/link";
 
 import * as p from "@plasmicapp/react-web";
+
 import {
   hasVariant,
   classNames,
@@ -80,7 +81,7 @@ function PlasmicTeamMembers__RenderFunc(props: {
       data-plasmic-for-node={forNode}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      <div className={classNames(defaultcss.all, sty.box__r9CfO)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__r9CfO)}>
         <TeamMemberCard
           className={classNames("__wab_instance", sty.teamMemberCard__zUfeo)}
           image={
@@ -125,7 +126,7 @@ function PlasmicTeamMembers__RenderFunc(props: {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box__dM6Q
+                sty.freeBox__dM6Q
               )}
             >
               {"Design Lead"}
@@ -134,7 +135,7 @@ function PlasmicTeamMembers__RenderFunc(props: {
         />
       </div>
 
-      <div className={classNames(defaultcss.all, sty.box__fLW)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__fLW)}>
         <TeamMemberCard
           className={classNames("__wab_instance", sty.teamMemberCard__dvFD)}
           image={
@@ -184,7 +185,7 @@ function PlasmicTeamMembers__RenderFunc(props: {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box__sxzzQ
+                sty.freeBox__sxzzQ
               )}
             >
               {"Frontend Developer"}

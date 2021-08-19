@@ -8,9 +8,9 @@
   text-align: center;
   cursor: pointer;
   font-weight: 600;
-  border-radius: 15px;
   background: url("/plasmic/copy_of_clove_website/images/screenShot20210627At122233PMpng2.png") left 0% bottom 0% / cover repeat,
-    linear-gradient(#eaa827, #eaa827) 0% 0% / 100% 100% repeat,
+    linear-gradient(#eaa827, #eaa827),
     url("/plasmic/copy_of_clove_website/images/cloveButtonsvg.svg") 0% 0% / cover no-repeat;
+  border-radius: 15px;
   border-width: 0px;
 }

@@ -22,12 +22,12 @@
   height: 100%;
   min-height: 0;
 }
-.box__wb3Q {
+.freeBox__wb3Q {
   height: auto;
   width: 100%;
+  background: linear-gradient(#e9eeed85, #e9eeed85),
+    url("/plasmic/copy_of_clove_website/images/cloveLeafsvg.svg") top 0% left 50% no-repeat, #ffffff;
   min-width: 0;
-  background: linear-gradient(#e9eeed85, #e9eeed85) 0% 0% repeat,
-    url("/plasmic/copy_of_clove_website/images/cloveLeafsvg.svg") top 0% left 50% no-repeat, #ffffff 0% 0% repeat;
 }
 .section__pfXIc:global(.__wab_instance) {
   height: auto;
@@ -38,7 +38,7 @@
   height: 100%;
   min-height: 0;
 }
-.box__aPnw7 {
+.freeBox__aPnw7 {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -78,12 +78,12 @@
   line-height: 1.2;
   color: #845c79 /* plasmic-token: HEzQ2XfuegOxui */;
 }
-.box__hnE {
+.freeBox__hnE {
   display: flex;
   position: relative;
   width: 100%;
+  background: #f9f9f9;
   min-width: 0;
-  background: #f9f9f9 repeat;
 }
 .section__vv4Iq:global(.__wab_instance) {
   position: relative;
@@ -95,7 +95,7 @@
   align-self: center;
   margin: -6em 0px 0px;
 }
-.box___4PWqJ {
+.freeBox___4PWqJ {
   position: relative;
   height: auto;
   font-family: "Montserrat", sans-serif;
@@ -108,7 +108,7 @@
   letter-spacing: 0.5px;
   max-width: 600px /* plasmic-token: kh_QbJwRdtO9At */;
 }
-.box__fDxtr {
+.freeBox__fDxtr {
   display: inline-flex;
   position: relative;
   flex-direction: column;
@@ -117,7 +117,7 @@
   overflow: visible;
   width: auto;
   height: auto;
-  background: #ffffff repeat;
+  background: #ffffff;
 }
 .section__qkZi0:global(.__wab_instance) {
   position: relative;
@@ -125,7 +125,7 @@
   width: 100%;
   min-width: 0;
 }
-.box__fjL1 {
+.freeBox__fjL1 {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -135,7 +135,7 @@
   width: 100%;
   min-width: 0;
 }
-.box__da7K7 {
+.freeBox__da7K7 {
   position: relative;
   height: auto;
   font-size: 48px;
@@ -161,7 +161,13 @@
   height: calc(100% + 60px);
 }
 .columns > :global(.__wab_flex-container) > *,
-.columns > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.columns > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.columns > :global(.__wab_flex-container) > picture > img,
+.columns
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 0px;
   margin-top: 60px;
 }
@@ -181,7 +187,13 @@
 }
 @media (min-width: 800px) {
   .columns > :global(.__wab_flex-container) > *,
-  .columns > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  .columns > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .columns > :global(.__wab_flex-container) > picture > img,
+  .columns
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 30px;
     margin-top: 0px;
   }
@@ -205,7 +217,7 @@
 .processCard__nrR1Q:global(.__wab_instance) {
   position: relative;
 }
-.box__sQMcm {
+.freeBox__sQMcm {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -218,6 +230,12 @@
   height: 100%;
   min-width: 0;
   min-height: 0;
+}
+.img__nWq4P > picture > img {
+  object-fit: cover;
+}
+.img__nWq4P > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .column__urEok {
   display: flex;
@@ -238,7 +256,7 @@
 .processCard__jerz5:global(.__wab_instance) {
   position: relative;
 }
-.box__uCEmy {
+.freeBox__uCEmy {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -249,6 +267,12 @@
   object-fit: cover;
   width: 100%;
   min-width: 0;
+}
+.img__ncQ6V > picture > img {
+  object-fit: cover;
+}
+.img__ncQ6V > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .column__lbnZb {
   display: flex;
@@ -269,7 +293,7 @@
 .processCard__iJuDr:global(.__wab_instance) {
   position: relative;
 }
-.box__mudoY {
+.freeBox__mudoY {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -280,7 +304,13 @@
   width: 100%;
   min-width: 0;
 }
-.box__rKfj1 {
+.img___8D1Qf > picture > img {
+  object-fit: cover;
+}
+.img___8D1Qf > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.freeBox__rKfj1 {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -289,8 +319,8 @@
   background: url("/plasmic/copy_of_clove_website/images/cloveBrownBackgroundsvg.svg") top 0% left 0% / contain repeat;
 }
 @media (min-width: 641px) {
-  .box__rKfj1 {
-    background: linear-gradient(#7d7176, #7d7176) 0% 0% / 100% 100% repeat,
+  .freeBox__rKfj1 {
+    background: linear-gradient(#7d7176, #7d7176),
       url("/plasmic/copy_of_clove_website/images/cloveBrownBackgroundsvg.svg") top 0% left 0% / contain repeat;
   }
 }
@@ -301,7 +331,7 @@
 .impactSection:global(.__wab_instance) {
   position: relative;
 }
-.box__qLqfd {
+.freeBox__qLqfd {
   display: flex;
   position: relative;
   flex-direction: column;

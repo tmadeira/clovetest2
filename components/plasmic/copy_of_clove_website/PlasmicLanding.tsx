@@ -16,6 +16,7 @@ import Head from "next/head";
 import Link, { LinkProps } from "next/link";
 
 import * as p from "@plasmicapp/react-web";
+
 import {
   hasVariant,
   classNames,
@@ -88,13 +89,13 @@ function PlasmicLanding__RenderFunc(props: {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box__nph6)}
+        className={classNames(defaultcss.all, sty.freeBox__nph6)}
       >
         {true ? (
-          <div className={classNames(defaultcss.all, sty.box__heKkj)} />
+          <div className={classNames(defaultcss.all, sty.freeBox__heKkj)} />
         ) : null}
 
-        <div className={classNames(defaultcss.all, sty.box__gLxNt)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__gLxNt)}>
           {p.renderPlasmicSlot({
             defaultContents:
               "Lead the world to carbon neutrality with your brand. ",
@@ -103,7 +104,7 @@ function PlasmicLanding__RenderFunc(props: {
           })}
         </div>
 
-        <div className={classNames(defaultcss.all, sty.box__lGnOs)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__lGnOs)}>
           {p.renderPlasmicSlot({
             defaultContents: (
               <React.Fragment>

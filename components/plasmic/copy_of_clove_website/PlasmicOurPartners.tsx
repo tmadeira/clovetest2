@@ -16,6 +16,7 @@ import Head from "next/head";
 import Link, { LinkProps } from "next/link";
 
 import * as p from "@plasmicapp/react-web";
+
 import {
   hasVariant,
   classNames,
@@ -115,7 +116,9 @@ function PlasmicOurPartners__RenderFunc(props: {
                 data-plasmic-override={overrides.section}
                 className={classNames("__wab_instance", sty.section)}
                 content={
-                  <div className={classNames(defaultcss.all, sty.box___23KFh)}>
+                  <div
+                    className={classNames(defaultcss.all, sty.freeBox___23KFh)}
+                  >
                     <div
                       data-plasmic-name={"title"}
                       data-plasmic-override={overrides.title}
@@ -132,7 +135,7 @@ function PlasmicOurPartners__RenderFunc(props: {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__bPrgu
+                        sty.freeBox__bPrgu
                       )}
                     >
                       {"Clove Partners"}
@@ -142,7 +145,7 @@ function PlasmicOurPartners__RenderFunc(props: {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__c6S2O
+                        sty.freeBox__c6S2O
                       )}
                     >
                       {
@@ -171,7 +174,7 @@ function PlasmicOurPartners__RenderFunc(props: {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box___3WrNi
+                        sty.freeBox___3WrNi
                       )}
                     >
                       {"Incoming Clove partners"}
@@ -181,7 +184,7 @@ function PlasmicOurPartners__RenderFunc(props: {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__uJyYa
+                        sty.freeBox__uJyYa
                       )}
                     >
                       {

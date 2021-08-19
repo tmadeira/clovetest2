@@ -15,6 +15,12 @@
   transition-duration: 1s;
   min-width: 0;
 }
+.img__a0Joe > picture > img {
+  object-fit: contain;
+}
+.img__a0Joe > .__wab_img-spacer > img {
+  object-fit: contain;
+}
 .img__yg59L {
   position: relative;
   width: 100%;

@@ -16,10 +16,12 @@
   height: calc(100% + 10px);
 }
 .root > :global(.__wab_flex-container) > *,
-.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 10px;
 }
-.box__xIu0E {
+.freeBox__xIu0E {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -38,7 +40,13 @@
   min-height: 0;
   border-radius: 20px;
 }
-.box__rl8Jo {
+.img__swUeS > picture > img {
+  object-fit: cover;
+}
+.img__swUeS > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.freeBox__rl8Jo {
   display: flex;
   position: relative;
   flex-direction: column;

@@ -16,6 +16,7 @@ import Head from "next/head";
 import Link, { LinkProps } from "next/link";
 
 import * as p from "@plasmicapp/react-web";
+
 import {
   hasVariant,
   classNames,
@@ -59,7 +60,7 @@ export const PlasmicEmailForm__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicEmailForm__OverridesType = {
   root?: p.Flex<"div">;
-  box?: p.Flex<"div">;
+  freeBox?: p.Flex<"div">;
   firstName?: p.Flex<"input">;
   firstNameError?: p.Flex<"div">;
   email?: p.Flex<"input">;
@@ -94,10 +95,14 @@ function PlasmicEmailForm__RenderFunc(props: {
     >
       {(hasVariant(variants, "submitted", "submitted") ? false : true) ? (
         <div
-          data-plasmic-name={"box"}
-          data-plasmic-override={overrides.box}
-          className={classNames(defaultcss.all, sty.box, {
-            [sty.box__submitted]: hasVariant(variants, "submitted", "submitted")
+          data-plasmic-name={"freeBox"}
+          data-plasmic-override={overrides.freeBox}
+          className={classNames(defaultcss.all, sty.freeBox, {
+            [sty.freeBox__submitted]: hasVariant(
+              variants,
+              "submitted",
+              "submitted"
+            )
           })}
         >
           <input
@@ -170,7 +175,7 @@ function PlasmicEmailForm__RenderFunc(props: {
 const PlasmicDescendants = {
   root: [
     "root",
-    "box",
+    "freeBox",
     "firstName",
     "firstNameError",
     "email",
@@ -178,8 +183,8 @@ const PlasmicDescendants = {
     "submitButton",
     "formThankYou"
   ],
-  box: [
-    "box",
+  freeBox: [
+    "freeBox",
     "firstName",
     "firstNameError",
     "email",
@@ -198,7 +203,7 @@ type DescendantsType<T extends NodeNameType> =
   typeof PlasmicDescendants[T][number];
 type NodeDefaultElementType = {
   root: "div";
-  box: "div";
+  freeBox: "div";
   firstName: "input";
   firstNameError: "div";
   email: "input";
@@ -268,7 +273,7 @@ export const PlasmicEmailForm = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    box: makeNodeComponent("box"),
+    freeBox: makeNodeComponent("freeBox"),
     firstName: makeNodeComponent("firstName"),
     firstNameError: makeNodeComponent("firstNameError"),
     email: makeNodeComponent("email"),

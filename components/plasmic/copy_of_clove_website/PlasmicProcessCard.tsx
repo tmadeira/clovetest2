@@ -16,6 +16,7 @@ import Head from "next/head";
 import Link, { LinkProps } from "next/link";
 
 import * as p from "@plasmicapp/react-web";
+
 import {
   hasVariant,
   classNames,
@@ -100,18 +101,18 @@ function PlasmicProcessCard__RenderFunc(props: {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box__iDeFa, {
-          [sty.box__colors_offWhite__iDeFAcTimj]: hasVariant(
+        className={classNames(defaultcss.all, sty.freeBox__iDeFa, {
+          [sty.freeBox__colors_offWhite__iDeFAcTimj]: hasVariant(
             variants,
             "colors",
             "offWhite"
           ),
-          [sty.box__colors_purple__iDeFAzMnc]: hasVariant(
+          [sty.freeBox__colors_purple__iDeFAzMnc]: hasVariant(
             variants,
             "colors",
             "purple"
           ),
-          [sty.box__mobile__iDeFAvkaxl]: hasVariant(
+          [sty.freeBox__mobile__iDeFAvkaxl]: hasVariant(
             variants,
             "mobile",
             "mobile"
@@ -119,8 +120,8 @@ function PlasmicProcessCard__RenderFunc(props: {
         })}
       >
         <div
-          className={classNames(defaultcss.all, sty.box___7XBtz, {
-            [sty.box__mobile___7XBtZvkaxl]: hasVariant(
+          className={classNames(defaultcss.all, sty.freeBox___7XBtz, {
+            [sty.freeBox__mobile___7XBtZvkaxl]: hasVariant(
               variants,
               "mobile",
               "mobile"
@@ -133,7 +134,7 @@ function PlasmicProcessCard__RenderFunc(props: {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__itR7F
+                  sty.freeBox__itR7F
                 )}
               >
                 <span>
@@ -153,8 +154,8 @@ function PlasmicProcessCard__RenderFunc(props: {
           })}
         </div>
 
-        <div className={classNames(defaultcss.all, sty.box__gQJp)}>
-          <div className={classNames(defaultcss.all, sty.box__gkxdk)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__gQJp)}>
+          <div className={classNames(defaultcss.all, sty.freeBox__gkxdk)}>
             {p.renderPlasmicSlot({
               defaultContents: (
                 <img
@@ -171,7 +172,7 @@ function PlasmicProcessCard__RenderFunc(props: {
             })}
           </div>
 
-          <div className={classNames(defaultcss.all, sty.box__dn1A)}>
+          <div className={classNames(defaultcss.all, sty.freeBox__dn1A)}>
             {p.renderPlasmicSlot({
               defaultContents:
                 "We measure the environmental impact of small businesses.",

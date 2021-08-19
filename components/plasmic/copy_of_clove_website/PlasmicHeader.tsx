@@ -16,6 +16,7 @@ import Head from "next/head";
 import Link, { LinkProps } from "next/link";
 
 import * as p from "@plasmicapp/react-web";
+
 import {
   hasVariant,
   classNames,
@@ -65,7 +66,7 @@ export const PlasmicHeader__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicHeader__OverridesType = {
   root?: p.Flex<"div">;
-  box?: p.Flex<"div">;
+  freeBox?: p.Flex<"div">;
   link?: p.Flex<"a"> & Partial<LinkProps>;
   img?: p.Flex<"img">;
   menuIcon?: p.Flex<typeof MenuIcon>;
@@ -96,11 +97,11 @@ function PlasmicHeader__RenderFunc(props: {
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
       <div
-        data-plasmic-name={"box"}
-        data-plasmic-override={overrides.box}
-        className={classNames(defaultcss.all, sty.box, {
-          [sty.box__desktop]: hasVariant(variants, "desktop", "desktop"),
-          [sty.box__goBack]: hasVariant(variants, "goBack", "goBack")
+        data-plasmic-name={"freeBox"}
+        data-plasmic-override={overrides.freeBox}
+        className={classNames(defaultcss.all, sty.freeBox, {
+          [sty.freeBox__desktop]: hasVariant(variants, "desktop", "desktop"),
+          [sty.freeBox__goBack]: hasVariant(variants, "goBack", "goBack")
         })}
       >
         <p.PlasmicLink
@@ -192,8 +193,8 @@ function PlasmicHeader__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "box", "link", "img", "menuIcon"],
-  box: ["box", "link", "img", "menuIcon"],
+  root: ["root", "freeBox", "link", "img", "menuIcon"],
+  freeBox: ["freeBox", "link", "img", "menuIcon"],
   link: ["link", "img"],
   img: ["img"],
   menuIcon: ["menuIcon"]
@@ -203,7 +204,7 @@ type DescendantsType<T extends NodeNameType> =
   typeof PlasmicDescendants[T][number];
 type NodeDefaultElementType = {
   root: "div";
-  box: "div";
+  freeBox: "div";
   link: "a";
   img: "img";
   menuIcon: typeof MenuIcon;
@@ -270,7 +271,7 @@ export const PlasmicHeader = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    box: makeNodeComponent("box"),
+    freeBox: makeNodeComponent("freeBox"),
     link: makeNodeComponent("link"),
     img: makeNodeComponent("img"),
     menuIcon: makeNodeComponent("menuIcon"),

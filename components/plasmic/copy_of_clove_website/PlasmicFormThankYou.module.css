@@ -11,10 +11,12 @@
   height: calc(100% + 10px);
 }
 .root > :global(.__wab_flex-container) > *,
-.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 10px;
 }
-.box {
+.freeBox {
   position: relative;
   font-size: 32px;
   font-family: "Montserrat", sans-serif;

@@ -16,6 +16,7 @@ import Head from "next/head";
 import Link, { LinkProps } from "next/link";
 
 import * as p from "@plasmicapp/react-web";
+
 import {
   hasVariant,
   classNames,
@@ -94,7 +95,7 @@ function PlasmicTeamMemberCard__RenderFunc(props: {
       hasGap={true}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      <div className={classNames(defaultcss.all, sty.box__xIu0E)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__xIu0E)}>
         {p.renderPlasmicSlot({
           defaultContents: (
             <img
@@ -109,7 +110,7 @@ function PlasmicTeamMemberCard__RenderFunc(props: {
         })}
       </div>
 
-      <div className={classNames(defaultcss.all, sty.box__rl8Jo)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__rl8Jo)}>
         {p.renderPlasmicSlot({
           defaultContents: "Martin Staadecker",
           value: args.name,

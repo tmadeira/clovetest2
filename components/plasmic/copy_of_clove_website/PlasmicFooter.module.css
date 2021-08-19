@@ -6,10 +6,10 @@
   height: 62px;
   position: relative;
   width: 100%;
+  background: #e8eeed;
   min-width: 0;
-  background: #e8eeed repeat;
 }
-.box {
+.freeBox {
   position: relative;
   font-size: 18px;
   font-family: Butler;

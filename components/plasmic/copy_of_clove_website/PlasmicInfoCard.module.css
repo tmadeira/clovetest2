@@ -9,7 +9,7 @@
   align-content: unset;
   min-height: 0;
 }
-.box___3BgDa {
+.freeBox___3BgDa {
   display: inline-flex;
   position: relative;
   flex-direction: row;
@@ -18,45 +18,57 @@
   width: auto;
   height: auto;
   margin-left: 20px;
+  background: #e8eeed;
   border-radius: 25px;
   padding: 2em 1em;
-  background: #e8eeed repeat;
 }
-.box___3BgDa > :global(.__wab_flex-container) {
+.freeBox___3BgDa > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   margin-left: calc(0px - 20px);
   width: calc(100% + 20px);
 }
-.box___3BgDa > :global(.__wab_flex-container) > *,
-.box___3BgDa > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox___3BgDa > :global(.__wab_flex-container) > *,
+.freeBox___3BgDa > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox___3BgDa > :global(.__wab_flex-container) > picture > img,
+.freeBox___3BgDa
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 20px;
 }
-.box__colors_offWhite___3BgDa8TPcq {
+.freeBox__colors_offWhite___3BgDa8TPcq {
   background: #efeeec;
 }
-.box__colors_purple___3BgDam4Bk3 {
+.freeBox__colors_purple___3BgDam4Bk3 {
   background: #e6e1e3;
 }
-.box__mobile___3BgDaqRfMv {
+.freeBox__mobile___3BgDaqRfMv {
   display: flex;
   flex-direction: column;
   margin-left: 0px;
 }
-.box__mobile___3BgDaqRfMv > :global(.__wab_flex-container) {
+.freeBox__mobile___3BgDaqRfMv > :global(.__wab_flex-container) {
   flex-direction: column;
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);
 }
-.box__mobile___3BgDaqRfMv > :global(.__wab_flex-container) > *,
-.box__mobile___3BgDaqRfMv
+.freeBox__mobile___3BgDaqRfMv > :global(.__wab_flex-container) > *,
+.freeBox__mobile___3BgDaqRfMv
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.freeBox__mobile___3BgDaqRfMv > :global(.__wab_flex-container) > picture > img,
+.freeBox__mobile___3BgDaqRfMv
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 0px;
 }
-.box__sw2T8 {
+.freeBox__sw2T8 {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -64,7 +76,7 @@
   justify-content: flex-start;
   margin-left: calc(-54px + 20px) !important;
 }
-.box__mobile__sw2T8QRfMv {
+.freeBox__mobile__sw2T8QRfMv {
   margin-left: calc(0px + 0px) !important;
   margin-top: 0px;
   margin-right: 0px;

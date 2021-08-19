@@ -16,6 +16,7 @@ import Head from "next/head";
 import Link, { LinkProps } from "next/link";
 
 import * as p from "@plasmicapp/react-web";
+
 import {
   hasVariant,
   classNames,
@@ -109,7 +110,7 @@ function PlasmicContact__RenderFunc(props: {
             className={classNames("__wab_instance", sty.page)}
             content={
               <React.Fragment>
-                <div className={classNames(defaultcss.all, sty.box__t4QE)}>
+                <div className={classNames(defaultcss.all, sty.freeBox__t4QE)}>
                   <Section
                     className={classNames("__wab_instance", sty.section__ohGV)}
                     content={
@@ -118,7 +119,7 @@ function PlasmicContact__RenderFunc(props: {
                           className={classNames(
                             defaultcss.all,
                             defaultcss.__wab_text,
-                            sty.box___53PgN
+                            sty.freeBox___53PgN
                           )}
                         >
                           {"Get in Touch"}
@@ -136,7 +137,7 @@ function PlasmicContact__RenderFunc(props: {
                             className={classNames(
                               defaultcss.all,
                               defaultcss.__wab_text,
-                              sty.box__ifpB0
+                              sty.freeBox__ifpB0
                             )}
                           >
                             {
@@ -150,18 +151,21 @@ function PlasmicContact__RenderFunc(props: {
                   />
                 </div>
 
-                <div className={classNames(defaultcss.all, sty.box__aeod7)}>
+                <div className={classNames(defaultcss.all, sty.freeBox__aeod7)}>
                   <Section
                     content={
                       <React.Fragment>
                         <div
-                          className={classNames(defaultcss.all, sty.box__dtWAv)}
+                          className={classNames(
+                            defaultcss.all,
+                            sty.freeBox__dtWAv
+                          )}
                         >
                           <div
                             className={classNames(
                               defaultcss.all,
                               defaultcss.__wab_text,
-                              sty.box__hLmRn
+                              sty.freeBox__hLmRn
                             )}
                           >
                             {"Meet Our Team"}

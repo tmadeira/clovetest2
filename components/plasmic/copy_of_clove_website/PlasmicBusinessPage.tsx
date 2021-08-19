@@ -16,6 +16,7 @@ import Head from "next/head";
 import Link, { LinkProps } from "next/link";
 
 import * as p from "@plasmicapp/react-web";
+
 import {
   hasVariant,
   classNames,
@@ -129,7 +130,9 @@ function PlasmicBusinessPage__RenderFunc(props: {
             className={classNames("__wab_instance", sty.page)}
             content={
               <React.Fragment>
-                <div className={classNames(defaultcss.all, sty.box___87Iwa)}>
+                <div
+                  className={classNames(defaultcss.all, sty.freeBox___87Iwa)}
+                >
                   <Section
                     content={
                       <Landing
@@ -140,7 +143,7 @@ function PlasmicBusinessPage__RenderFunc(props: {
                             className={classNames(
                               defaultcss.all,
                               defaultcss.__wab_text,
-                              sty.box___0Ralf
+                              sty.freeBox___0Ralf
                             )}
                           >
                             {
@@ -154,14 +157,14 @@ function PlasmicBusinessPage__RenderFunc(props: {
                             hasGap={true}
                             className={classNames(
                               defaultcss.all,
-                              sty.box__beFp
+                              sty.freeBox__beFp
                             )}
                           >
                             <div
                               className={classNames(
                                 defaultcss.all,
                                 defaultcss.__wab_text,
-                                sty.box__oXbqq
+                                sty.freeBox__oXbqq
                               )}
                             >
                               {"Join the Clove movement."}
@@ -179,7 +182,7 @@ function PlasmicBusinessPage__RenderFunc(props: {
                                 className={classNames(
                                   defaultcss.all,
                                   defaultcss.__wab_text,
-                                  sty.box__biNvy
+                                  sty.freeBox__biNvy
                                 )}
                               >
                                 {"GET ASSESSED"}
@@ -193,14 +196,17 @@ function PlasmicBusinessPage__RenderFunc(props: {
                   />
                 </div>
 
-                <div className={classNames(defaultcss.all, sty.box__o1BCs)}>
+                <div className={classNames(defaultcss.all, sty.freeBox__o1BCs)}>
                   <Section
                     className={classNames("__wab_instance", sty.section__fmPW)}
                     content={
                       <p.Stack
                         as={"div"}
                         hasGap={true}
-                        className={classNames(defaultcss.all, sty.box__vvDhc)}
+                        className={classNames(
+                          defaultcss.all,
+                          sty.freeBox__vvDhc
+                        )}
                       >
                         <p.Stack
                           as={"div"}
@@ -218,14 +224,14 @@ function PlasmicBusinessPage__RenderFunc(props: {
                             <div
                               className={classNames(
                                 defaultcss.all,
-                                sty.box__mhYpi
+                                sty.freeBox__mhYpi
                               )}
                             >
                               <div
                                 className={classNames(
                                   defaultcss.all,
                                   defaultcss.__wab_text,
-                                  sty.box__f32U
+                                  sty.freeBox__f32U
                                 )}
                               >
                                 {"Why Join Clove?"}
@@ -241,7 +247,7 @@ function PlasmicBusinessPage__RenderFunc(props: {
                                   className={classNames(
                                     defaultcss.all,
                                     defaultcss.__wab_text,
-                                    sty.box__qIjLd
+                                    sty.freeBox__qIjLd
                                   )}
                                 >
                                   {"Reduce your environmental impacts"}
@@ -258,7 +264,7 @@ function PlasmicBusinessPage__RenderFunc(props: {
                                   className={classNames(
                                     defaultcss.all,
                                     defaultcss.__wab_text,
-                                    sty.box__mblVy
+                                    sty.freeBox__mblVy
                                   )}
                                 >
                                   {"Build trust with your customers"}
@@ -275,7 +281,7 @@ function PlasmicBusinessPage__RenderFunc(props: {
                                   className={classNames(
                                     defaultcss.all,
                                     defaultcss.__wab_text,
-                                    sty.box__jGlBx
+                                    sty.freeBox__jGlBx
                                   )}
                                 >
                                   {"Simple integration into your store"}
@@ -292,7 +298,7 @@ function PlasmicBusinessPage__RenderFunc(props: {
                                   className={classNames(
                                     defaultcss.all,
                                     defaultcss.__wab_text,
-                                    sty.box__r4Vqa
+                                    sty.freeBox__r4Vqa
                                   )}
                                 >
                                   {"Reliable & transparent assessment results"}
@@ -309,7 +315,7 @@ function PlasmicBusinessPage__RenderFunc(props: {
                                   className={classNames(
                                     defaultcss.all,
                                     defaultcss.__wab_text,
-                                    sty.box__lxJrM
+                                    sty.freeBox__lxJrM
                                   )}
                                 >
                                   {"It’s free!"}
@@ -327,7 +333,7 @@ function PlasmicBusinessPage__RenderFunc(props: {
                             <div
                               className={classNames(
                                 defaultcss.all,
-                                sty.box___8VgL0
+                                sty.freeBox___8VgL0
                               )}
                             >
                               <img
@@ -348,7 +354,7 @@ function PlasmicBusinessPage__RenderFunc(props: {
                   />
                 </div>
 
-                <div className={classNames(defaultcss.all, sty.box__qIKoL)}>
+                <div className={classNames(defaultcss.all, sty.freeBox__qIKoL)}>
                   <Section
                     className={classNames("__wab_instance", sty.section__sNCa)}
                     content={
@@ -369,7 +375,7 @@ function PlasmicBusinessPage__RenderFunc(props: {
                             className={classNames(
                               defaultcss.all,
                               defaultcss.__wab_text,
-                              sty.box__gYTj
+                              sty.freeBox__gYTj
                             )}
                           >
                             {
@@ -390,13 +396,13 @@ function PlasmicBusinessPage__RenderFunc(props: {
                     <p.Stack
                       as={"div"}
                       hasGap={true}
-                      className={classNames(defaultcss.all, sty.box__wWyUi)}
+                      className={classNames(defaultcss.all, sty.freeBox__wWyUi)}
                     >
                       <div
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box___2TRp6
+                          sty.freeBox___2TRp6
                         )}
                         id={"go" as const}
                       >
@@ -415,7 +421,7 @@ function PlasmicBusinessPage__RenderFunc(props: {
                           className={classNames(
                             defaultcss.all,
                             defaultcss.__wab_text,
-                            sty.box__aEi5J
+                            sty.freeBox__aEi5J
                           )}
                         >
                           {

@@ -16,6 +16,7 @@ import Head from "next/head";
 import Link, { LinkProps } from "next/link";
 
 import * as p from "@plasmicapp/react-web";
+
 import {
   hasVariant,
   classNames,
@@ -141,7 +142,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 data-plasmic-override={overrides.sections}
                 className={classNames(defaultcss.all, sty.sections)}
               >
-                <div className={classNames(defaultcss.all, sty.box__wb3Q)}>
+                <div className={classNames(defaultcss.all, sty.freeBox__wb3Q)}>
                   <Section
                     className={classNames("__wab_instance", sty.section__pfXIc)}
                     content={
@@ -163,7 +164,7 @@ function PlasmicHomepage__RenderFunc(props: {
                             <div
                               className={classNames(
                                 defaultcss.all,
-                                sty.box__aPnw7
+                                sty.freeBox__aPnw7
                               )}
                             >
                               <p.PlasmicLink
@@ -206,7 +207,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   />
                 </div>
 
-                <div className={classNames(defaultcss.all, sty.box__hnE)}>
+                <div className={classNames(defaultcss.all, sty.freeBox__hnE)}>
                   <Section
                     className={classNames("__wab_instance", sty.section__vv4Iq)}
                     content={
@@ -226,7 +227,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           className={classNames(
                             defaultcss.all,
                             defaultcss.__wab_text,
-                            sty.box___4PWqJ
+                            sty.freeBox___4PWqJ
                           )}
                         >
                           {
@@ -238,18 +239,21 @@ function PlasmicHomepage__RenderFunc(props: {
                   />
                 </div>
 
-                <div className={classNames(defaultcss.all, sty.box__fDxtr)}>
+                <div className={classNames(defaultcss.all, sty.freeBox__fDxtr)}>
                   <Section
                     className={classNames("__wab_instance", sty.section__qkZi0)}
                     content={
                       <div
-                        className={classNames(defaultcss.all, sty.box__fjL1)}
+                        className={classNames(
+                          defaultcss.all,
+                          sty.freeBox__fjL1
+                        )}
                       >
                         <div
                           className={classNames(
                             defaultcss.all,
                             defaultcss.__wab_text,
-                            sty.box__da7K7
+                            sty.freeBox__da7K7
                           )}
                         >
                           {"How Clove Works"}
@@ -291,7 +295,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                 className={classNames(
                                   defaultcss.all,
                                   defaultcss.__wab_text,
-                                  sty.box__sQMcm
+                                  sty.freeBox__sQMcm
                                 )}
                               >
                                 <span>
@@ -336,7 +340,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                 className={classNames(
                                   defaultcss.all,
                                   defaultcss.__wab_text,
-                                  sty.box__uCEmy
+                                  sty.freeBox__uCEmy
                                 )}
                               >
                                 <span>
@@ -381,7 +385,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                 className={classNames(
                                   defaultcss.all,
                                   defaultcss.__wab_text,
-                                  sty.box__mudoY
+                                  sty.freeBox__mudoY
                                 )}
                               >
                                 <span>
@@ -400,7 +404,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   />
                 </div>
 
-                <div className={classNames(defaultcss.all, sty.box__rKfj1)}>
+                <div className={classNames(defaultcss.all, sty.freeBox__rKfj1)}>
                   <Section
                     className={classNames("__wab_instance", sty.section__qMt1Y)}
                     content={
@@ -422,7 +426,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   />
                 </div>
 
-                <div className={classNames(defaultcss.all, sty.box__qLqfd)}>
+                <div className={classNames(defaultcss.all, sty.freeBox__qLqfd)}>
                   <Actions
                     data-plasmic-name={"actions"}
                     data-plasmic-override={overrides.actions}

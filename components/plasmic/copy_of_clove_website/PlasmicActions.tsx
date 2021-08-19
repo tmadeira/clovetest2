@@ -16,6 +16,7 @@ import Head from "next/head";
 import Link, { LinkProps } from "next/link";
 
 import * as p from "@plasmicapp/react-web";
+
 import {
   hasVariant,
   classNames,
@@ -95,13 +96,13 @@ function PlasmicActions__RenderFunc(props: {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__qOddc)}
+            className={classNames(defaultcss.all, sty.freeBox__qOddc)}
           >
             <div
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box___0W7QA
+                sty.freeBox___0W7QA
               )}
               id={"help" as const}
             >
@@ -119,7 +120,7 @@ function PlasmicActions__RenderFunc(props: {
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.box__rCOxh)}
+                  className={classNames(defaultcss.all, sty.freeBox__rCOxh)}
                 >
                   <InfoCard
                     className={classNames(
@@ -149,7 +150,7 @@ function PlasmicActions__RenderFunc(props: {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__yOiav
+                        sty.freeBox__yOiav
                       )}
                     >
                       <span>
@@ -191,7 +192,7 @@ function PlasmicActions__RenderFunc(props: {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__o1Xiq
+                        sty.freeBox__o1Xiq
                       )}
                     >
                       <span>
@@ -215,16 +216,19 @@ function PlasmicActions__RenderFunc(props: {
                     <p.Stack
                       as={"div"}
                       hasGap={true}
-                      className={classNames(defaultcss.all, sty.box__kgpIz)}
+                      className={classNames(defaultcss.all, sty.freeBox__kgpIz)}
                     >
                       <div
-                        className={classNames(defaultcss.all, sty.box__xxMjI)}
+                        className={classNames(
+                          defaultcss.all,
+                          sty.freeBox__xxMjI
+                        )}
                       >
                         <div
                           className={classNames(
                             defaultcss.all,
                             defaultcss.__wab_text,
-                            sty.box__igVc0
+                            sty.freeBox__igVc0
                           )}
                         >
                           {"Connect with us to stay involved! "}
@@ -234,7 +238,7 @@ function PlasmicActions__RenderFunc(props: {
                           className={classNames(
                             defaultcss.all,
                             defaultcss.__wab_text,
-                            sty.box___8Ndeo
+                            sty.freeBox___8Ndeo
                           )}
                         >
                           {"You'll be the first to know about our progress."}
@@ -253,7 +257,7 @@ function PlasmicActions__RenderFunc(props: {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__xfQt
+                      sty.freeBox__xfQt
                     )}
                   >
                     <span>

@@ -7,10 +7,10 @@
   width: 100%;
   padding-left: 3%;
   padding-right: 3%;
+  background: #ffffff;
   min-width: 0;
-  background: #ffffff repeat;
 }
-.box {
+.freeBox {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -35,6 +35,12 @@
   width: 94px;
   height: 35px;
   flex-shrink: 0;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.img > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .headerLinks__txGHy:global(.__wab_instance) {
   position: relative;

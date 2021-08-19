@@ -16,6 +16,7 @@ import Head from "next/head";
 import Link, { LinkProps } from "next/link";
 
 import * as p from "@plasmicapp/react-web";
+
 import {
   hasVariant,
   classNames,
@@ -91,7 +92,7 @@ function PlasmicPartnerCard__RenderFunc(props: {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box__rDkbk)}
+        className={classNames(defaultcss.all, sty.freeBox__rDkbk)}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
@@ -105,7 +106,7 @@ function PlasmicPartnerCard__RenderFunc(props: {
           value: args.children
         })}
 
-        <div className={classNames(defaultcss.all, sty.box__zSjmD)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__zSjmD)}>
           {p.renderPlasmicSlot({
             defaultContents: "Shop 1301",
             value: args.slot,

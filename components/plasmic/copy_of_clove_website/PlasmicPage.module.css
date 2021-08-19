@@ -12,11 +12,10 @@
 .header:global(.__wab_instance) {
   position: relative;
 }
-.box___92XX {
+.freeBox___92XX {
   height: 800px;
+  background: url("/plasmic/copy_of_clove_website/images/cloveLeafsvg.svg") top 0% left 50% no-repeat, #e8eeed;
   flex-shrink: 0;
-  background: url("/plasmic/copy_of_clove_website/images/cloveLeafsvg.svg") top 0% left 50% no-repeat,
-    #e8eeed 0% 0% repeat;
 }
 .section___2Ch5B:global(.__wab_instance) {
   height: 100%;
@@ -39,12 +38,12 @@
   align-self: center;
   height: 50px;
 }
-.box__yOMi {
+.freeBox__yOMi {
   display: flex;
   position: relative;
   width: 100%;
+  background: #f3f3f0;
   min-width: 0;
-  background: #f3f3f0 repeat;
 }
 .section__vywgD:global(.__wab_instance) {
   position: relative;
@@ -61,7 +60,13 @@
   min-height: 100px;
   min-width: 0;
 }
-.box__kdsyp {
+.img__h9Kfz > picture > img {
+  object-fit: cover;
+}
+.img__h9Kfz > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.freeBox__kdsyp {
   position: relative;
   height: auto;
   font-family: "Montserrat", sans-serif;

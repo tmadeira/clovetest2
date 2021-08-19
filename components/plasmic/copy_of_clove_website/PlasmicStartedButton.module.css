@@ -11,10 +11,10 @@
   height: auto;
   display: inline-flex;
   flex-direction: row;
+  background: url("/plasmic/copy_of_clove_website/images/screenShot20210627At122233PMpng.png") left 0% top 0% / auto 100% repeat,
+    #eaa827;
   border-radius: 15px;
   padding: 0.5em 2em;
-  background: url("/plasmic/copy_of_clove_website/images/screenShot20210627At122233PMpng.png") left 0% top 0% / auto 100% repeat,
-    #eaa827 0% 0% / 100% 100% repeat;
   border: 0px solid #ffffff;
 }
 .slotChildren {
